@@ -1,5 +1,5 @@
 clear all;
-Data=load('~/Downloads/Yandex/user_url_test_1M_14days_5Clicks.txt');
+Data=load('~/Downloads/Yandex/user_url_train_1M_14days_5Clicks.txt');
 Data(:,1)=Data(:,1) + 1; Data(:,2)=Data(:,2)+1;
 
 nD = max(Data(:,1));
